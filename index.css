@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    margin-top: 0;
+    background-image:url( https://images.unsplash.com/photo-1553123428-247ffbd12d90?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDEwNHw2c01WalRMU2tlUXx8ZW58MHx8fHx8);
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 3% 10%;
+    font-family: helvetica;
+}
+.page-container{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(15, 15, 15, 0.753);
+   border-radius: 30px;
+   box-shadow: 0 0 3px white;
+}
+nav{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+h1>span{
+    color: red;
+}
+nav>h1{
+    font-size: 28px;
+    font-weight: 700;
+    color: white;
+}
+.links>a{
+     color: white;
+     margin-right: 40px;
+     text-decoration: none;
+}
+.links>a:nth-child(1){
+    color: red;
+}
+.buttons>i{
+    color: white;
+    margin-right: 30px;
+    font-size: 20px;
+}
+.buttons>button{
+    padding: 10px 20px;
+    background-color: rgb(11, 236, 86);
+    color: white;
+    border-radius: 20px;
+    border: none;
+}
+.flex-container{
+    width: 90%;
+    height: 80%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.text-container{
+    width: 40%;
+    height: 90%;
+    color: white;
+    padding: 20px;
+    padding-left: 50px;
+}
+.text-container>h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.text-container>p{
+    font-weight: 100;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+.text-container>button{
+    padding: 10px 20px;
+    border: 1px solid white;
+    color: white;
+    border-radius: 20px;
+    margin-right: 10px;
+    background-color: transparent;
+}
+#btn1{
+    background-color: rgb(245, 33, 33);
+    border: none;
+}
+.image-container{
+    height: 100%;
+    width: 60%;
+    padding-top: 20px;
+}
+.image-container>img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.review{
+    /* height: 20%; */
+    display: flex;
+    margin-top: 30px;
+}
+.users{
+  border-right: 1px solid white;
+  padding-right: 30px;
+}
+.downloads{
+    padding-left: 30px;
+}
